@@ -1,0 +1,70 @@
+.title {
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 40px;
+}
+
+.sub-title {
+    font-family: 'Ubuntu Mono', cursive;
+    font-size: 18px;
+    color: black;
+    margin: 0px;
+}
+
+.blue-button {
+    /*background-color: blue;*/
+    /*padding: 10px 20px;*/
+    /*margin-right: 15px;*/
+    /*color:white;*/
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background: #0000ff;
+    color: #fff;
+    float: right;
+    margin:  5px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    overflow:hidden;
+    display: block;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombutton {
+    width: 110px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 90%;
+    background:#cfb53b;
+    color: black;
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative ;
+    top : 180px  ;
+}
